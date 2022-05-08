@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Interactable
+  - SfxAudioSource
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 1
+  - Ground
+  - tilemap
+  - Interactables
+  - Trash
+  - Walls
+  - Hero
+  - Enemies
+  - Collectables
+  - Checkers
+  - ColladableEnemies
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: palm
+    uniqueID: 4013926849
+    locked: 0
+  - name: platovlock
+    uniqueID: 1354958937
+    locked: 0
+  - name: Ground
+    uniqueID: 928089323
+    locked: 0
+  - name: Tilemapdolevel
+    uniqueID: 3843254845
+    locked: 0
+  - name: tilemap
+    uniqueID: 3820434101
+    locked: 0
