@@ -279,7 +279,7 @@ SpriteRenderer:
   m_SortingLayerID: 1354958937
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cbdf52e273f914e428900144b175e24b, type: 3}
+  m_Sprite: {fileID: 4723107735738678597, guid: 478184bcaf00ac842aa8d02dc548361d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -309,7 +309,7 @@ MonoBehaviour:
   _clips:
   - _name: idle
     _sprites:
-    - {fileID: 21300000, guid: a82809b9aac89f349965f44f7e4cf7ef, type: 3}
+    - {fileID: -2085297131118140966, guid: 98395249f151fd04d9839f9b3fbdc282, type: 3}
     _loop: 0
     _allowNextClip: 0
     _onComplete:
@@ -317,10 +317,10 @@ MonoBehaviour:
         m_Calls: []
   - _name: start-attack
     _sprites:
-    - {fileID: 21300000, guid: cbdf52e273f914e428900144b175e24b, type: 3}
-    - {fileID: 21300000, guid: bd7eb7459104232418449364a5b8bbe4, type: 3}
-    - {fileID: 21300000, guid: ff1851d29b2dc8547b6c6b17a0ee1263, type: 3}
-    - {fileID: 21300000, guid: 040a85ee56cadc74693db2279782bf90, type: 3}
+    - {fileID: 2469033851445598716, guid: 98395249f151fd04d9839f9b3fbdc282, type: 3}
+    - {fileID: 3242852554281066579, guid: 98395249f151fd04d9839f9b3fbdc282, type: 3}
+    - {fileID: -3312327535390791081, guid: 98395249f151fd04d9839f9b3fbdc282, type: 3}
+    - {fileID: 1033412679963994307, guid: 98395249f151fd04d9839f9b3fbdc282, type: 3}
     _loop: 0
     _allowNextClip: 1
     _onComplete:
@@ -341,8 +341,8 @@ MonoBehaviour:
           m_CallState: 2
   - _name: end-attack
     _sprites:
-    - {fileID: 21300000, guid: fc09964f71731584ab25b7a44c6fb60b, type: 3}
-    - {fileID: 21300000, guid: 9978f9484f888c14eaaee57aa644a566, type: 3}
+    - {fileID: -4321844286452402176, guid: 98395249f151fd04d9839f9b3fbdc282, type: 3}
+    - {fileID: 6428867732993131146, guid: 98395249f151fd04d9839f9b3fbdc282, type: 3}
     _loop: 0
     _allowNextClip: 0
     _onComplete:
@@ -350,10 +350,10 @@ MonoBehaviour:
         m_Calls: []
   - _name: hit
     _sprites:
-    - {fileID: 21300000, guid: a5b2fac085faab545b386263a47c0105, type: 3}
-    - {fileID: 21300000, guid: 8a1c619649680e34094fe99405a5f844, type: 3}
-    - {fileID: 21300000, guid: 9ca13cea23cbc714182e172e9da72f91, type: 3}
-    - {fileID: 21300000, guid: b0becda059c1aed48b4426498ba9b9c3, type: 3}
+    - {fileID: 3156895337291164288, guid: 603275152d5cd2b489779e7a8cab685b, type: 3}
+    - {fileID: 1400002288684528572, guid: 603275152d5cd2b489779e7a8cab685b, type: 3}
+    - {fileID: -1891625820773287384, guid: 603275152d5cd2b489779e7a8cab685b, type: 3}
+    - {fileID: -5789737788129074030, guid: 603275152d5cd2b489779e7a8cab685b, type: 3}
     _loop: 0
     _allowNextClip: 0
     _onComplete:
@@ -361,7 +361,7 @@ MonoBehaviour:
         m_Calls: []
   - _name: die
     _sprites:
-    - {fileID: 21300000, guid: ad8888634f1ce9047b3b42b7f3507288, type: 3}
+    - {fileID: 4800267807231483719, guid: 603275152d5cd2b489779e7a8cab685b, type: 3}
     _loop: 0
     _allowNextClip: 0
     _onComplete:
@@ -410,7 +410,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.9375, y: 1}
+    oldSize: {x: 1.125, y: 0.5625}
     newSize: {x: 0.9375, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
