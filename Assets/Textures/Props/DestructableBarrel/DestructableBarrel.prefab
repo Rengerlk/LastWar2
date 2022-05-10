@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: -281040447
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d13fce15ef4749c43a85861e2f752077, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2264d854596167d4daed3a958751b73a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -107,7 +107,7 @@ MonoBehaviour:
   _clips:
   - _name: idle
     _sprites:
-    - {fileID: 21300000, guid: d13fce15ef4749c43a85861e2f752077, type: 3}
+    - {fileID: 21300000, guid: 2264d854596167d4daed3a958751b73a, type: 3}
     _loop: 0
     _allowNextClip: 0
     _onComplete:
@@ -231,6 +231,9 @@ MonoBehaviour:
           m_StringArgument: destroy
           m_BoolArgument: 0
         m_CallState: 2
+  _onChange:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!50 &107782973385269709
 Rigidbody2D:
   serializedVersion: 4
@@ -269,7 +272,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.8125, y: 0.9375}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.8125, y: 0.9375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -292,3 +295,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 107782973385269708}
   _prefab: {fileID: 0}
+  _invertXScale: 0
