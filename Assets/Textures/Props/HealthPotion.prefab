@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8636998513084543034}
   - component: {fileID: 8636998513084542983}
   - component: {fileID: 8636998513084543032}
-  - component: {fileID: 5474653057468281227}
+  - component: {fileID: 8070841820255135405}
   m_Layer: 14
   m_Name: HealthPotion
   m_TagString: Untagged
@@ -156,7 +156,7 @@ MonoBehaviour:
   _tag: Player
   _layer:
     serializedVersion: 2
-    m_Bits: 16384
+    m_Bits: 4294967295
   _action:
     m_PersistentCalls:
       m_Calls:
@@ -172,7 +172,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 5474653057468281227}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PixelCrew.Components.Collectables.InventoryAddComponent,
           Assembly-CSharp
         m_MethodName: Add
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _ObjectToDestroy: {fileID: 8636998513084543038}
---- !u!114 &5474653057468281227
+--- !u!114 &8070841820255135405
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -236,8 +236,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8636998513084543038}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa999853428f47c3a46c5d2ce49c93a1, type: 3}
+  m_Script: {fileID: 11500000, guid: 7294aef2586ddbd4daffc9bda47bb448, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: HealthPotion
-  _count: 1
+  _hpDelta: 2
