@@ -115,10 +115,7 @@ MonoBehaviour:
         m_Calls: []
   - _name: hit
     _sprites:
-    - {fileID: 21300000, guid: 1f1050c19a82b2b48a0d9466d295dc66, type: 3}
-    - {fileID: 21300000, guid: 24a9a26d8601a8c46bfba19c29fdd4e4, type: 3}
-    - {fileID: 21300000, guid: 19a76607fc7248b4598ba53f2bea2ce9, type: 3}
-    - {fileID: 21300000, guid: c87a80f1f2b39f549884d0388506c650, type: 3}
+    - {fileID: 21300000, guid: 607ed385b05cda64391784e372fe9cd9, type: 3}
     _loop: 0
     _allowNextClip: 0
     _onComplete:
@@ -138,10 +135,10 @@ MonoBehaviour:
           m_CallState: 2
   - _name: destroy
     _sprites:
-    - {fileID: 21300000, guid: 1f1050c19a82b2b48a0d9466d295dc66, type: 3}
-    - {fileID: 21300000, guid: 24a9a26d8601a8c46bfba19c29fdd4e4, type: 3}
-    - {fileID: 21300000, guid: 19a76607fc7248b4598ba53f2bea2ce9, type: 3}
-    - {fileID: 21300000, guid: 1f1050c19a82b2b48a0d9466d295dc66, type: 3}
+    - {fileID: 284976822226269212, guid: 231e6b0f94c5b474ea47208568586c31, type: 3}
+    - {fileID: -8912961899964656776, guid: 231e6b0f94c5b474ea47208568586c31, type: 3}
+    - {fileID: -4175341308485553195, guid: 231e6b0f94c5b474ea47208568586c31, type: 3}
+    - {fileID: -4249178985928880070, guid: 231e6b0f94c5b474ea47208568586c31, type: 3}
     _loop: 0
     _allowNextClip: 0
     _onComplete:
