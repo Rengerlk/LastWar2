@@ -120,8 +120,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2150288482398314222, guid: 6d487c3c3278837469b3f032ba78e252, type: 3}
     - target: {fileID: 3265214707691489534, guid: 7c42c08fadc219d48886ff7dafd6aaf1, type: 3}
+      propertyPath: m_Size.x
+      value: 0.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265214707691489534, guid: 7c42c08fadc219d48886ff7dafd6aaf1, type: 3}
+      propertyPath: m_Size.y
+      value: 1.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265214707691489534, guid: 7c42c08fadc219d48886ff7dafd6aaf1, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265214707691489534, guid: 7c42c08fadc219d48886ff7dafd6aaf1, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265214707691489535, guid: 7c42c08fadc219d48886ff7dafd6aaf1, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3265214709310110304, guid: 7c42c08fadc219d48886ff7dafd6aaf1, type: 3}
       propertyPath: _prefab
