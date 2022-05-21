@@ -8,7 +8,7 @@ using PixelCrew.Model;
 using PixelCrew.Model.Data;
 using PixelCrew.Model.Definitions;
 using PixelCrew.Utils;
-using UnityEditor.Animations;
+
 using UnityEngine;
 using Random = System.Random;
 
@@ -22,8 +22,8 @@ namespace PixelCrew.Creatures.Hero
         
         [SerializeField] private float _slamDownVelocity;
         [SerializeField] private CoolDown _throwCoolDown;
-        [SerializeField] private AnimatorController _armed;
-        [SerializeField] private AnimatorController _disarmed;
+        [SerializeField] private RuntimeAnimatorController _armed;
+        [SerializeField] private RuntimeAnimatorController _disarmed;
 
         [Header("Super throw")] [SerializeField]
         private CoolDown _superThrowCoolDown;
