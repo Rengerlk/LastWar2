@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using PixelCrew.Model.Data.Properties;
 using PixelCrew.Utils.Disposable;
@@ -40,6 +41,11 @@ namespace PixelCrew.Model.Data
         private void LoadUIs()
         {
             SceneManager.LoadScene("Hud", LoadSceneMode.Additive);
+            LoadOnScreenControls();
+        }
+        [Conditional("USE_ONSCREEN_CONTROLS")]
+        private void LoadOnScreenControls()
+        {
             SceneManager.LoadScene("Controls", LoadSceneMode.Additive);
         }
         private bool IsSessionExit()

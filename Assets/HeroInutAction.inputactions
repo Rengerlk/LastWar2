@@ -113,9 +113,9 @@
                 {
                     "name": "",
                     "id": "15cd2e38-750d-4a60-9bb6-432f0a2c0395",
-                    "path": "",
+                    "path": "<Gamepad>/leftStick",
                     "interactions": "",
-                    "processors": "",
+                    "processors": "StickDeadzone(min=0.4),NormalizeVector2",
                     "groups": "",
                     "action": "Movement",
                     "isComposite": false,
