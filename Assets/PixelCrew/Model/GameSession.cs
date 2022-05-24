@@ -18,7 +18,7 @@ namespace PixelCrew.Model.Data
 
         private void Awake()
         {
-            LoadHud();
+            LoadUIs();
             if (IsSessionExit())
             {
                 Destroy(gameObject);
@@ -37,9 +37,10 @@ namespace PixelCrew.Model.Data
            _trash.Retain(QuickInventory);
         }
 
-        private void LoadHud()
+        private void LoadUIs()
         {
             SceneManager.LoadScene("Hud", LoadSceneMode.Additive);
+            SceneManager.LoadScene("Controls", LoadSceneMode.Additive);
         }
         private bool IsSessionExit()
         {
