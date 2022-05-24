@@ -115,6 +115,17 @@
                 },
                 {
                     "name": "",
+                    "id": "81811f35-c468-40cf-b1fd-f9ea6d2f4da9",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "eeee323c-1090-4f30-a48f-43e3933611e8",
                     "path": "<Keyboard>/e",
                     "interactions": "",
