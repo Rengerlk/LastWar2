@@ -25,7 +25,7 @@ TagManager:
   - Collectables
   - Checkers
   - ColladableEnemies
-  - 
+  - Crech
   - 
   - 
   - 
@@ -43,6 +43,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: crech
+    uniqueID: 6807689
     locked: 0
   - name: palm
     uniqueID: 4013926849

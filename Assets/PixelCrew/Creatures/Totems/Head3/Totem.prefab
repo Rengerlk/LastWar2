@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 7264464710359896519}
   - component: {fileID: 7264464710359896517}
   - component: {fileID: 7264464710359896518}
-  m_Layer: 16
+  m_Layer: 13
   m_Name: SpawnTrash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
