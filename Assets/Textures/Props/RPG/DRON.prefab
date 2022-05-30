@@ -65,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7264464711119444547, guid: 057f8e1aa03e3e646999e9d4a1032786, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7264464711119444555, guid: 057f8e1aa03e3e646999e9d4a1032786, type: 3}
       propertyPath: _health
